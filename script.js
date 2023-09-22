@@ -53,7 +53,7 @@ let secretNumber = Math.trunc(Math.random() * europeanCountries.length + 1);
 let ourCountry = europeanCountries[secretNumber];
 let dataForHint;
 
-console.log(ourCountry);
+//console.log(ourCountry);
 
 //displaying messages
 
@@ -189,7 +189,7 @@ document.querySelector(".again").addEventListener("click", function () {
   secretNumber = Math.trunc(Math.random() * europeanCountries.length + 1);
   ourCountry = europeanCountries[secretNumber];
   score = 20;
-  console.log(ourCountry);
+
   setTextContent("Start guessing...", ".message");
 
   setTextContent("0", ".score");
