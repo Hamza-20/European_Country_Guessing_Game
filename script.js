@@ -10,7 +10,7 @@ const europeanCountries = [
   "bulgaria",
   "croatia",
   "cyprus",
-  "czech Republic",
+  "czech republic",
   "denmark",
   "estonia",
   "finland",
@@ -65,13 +65,13 @@ function setTextContent(content, className) {
   document.querySelector(className).textContent = content;
 }
 
-//Event handlers
-
 let score = 20;
 let highscore = 0;
 let currentDiv = document.querySelector(".number");
 
 ////////////////check button event handler//////////////////////////
+
+const checkAnswer = function () {};
 
 document.querySelector(".check").addEventListener("click", function () {
   const guess = document.querySelector(".guess").value;
